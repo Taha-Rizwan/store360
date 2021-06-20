@@ -1,0 +1,16 @@
+.Slider {
+  padding-top: 65px;
+  padding-bottom: 10px;
+  height: 50vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .Slider{
+    width: 90vw;
+    height: 32vh;
+  }
+} 

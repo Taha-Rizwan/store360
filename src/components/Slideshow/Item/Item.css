@@ -1,0 +1,21 @@
+.Box {
+  width: 50%;
+  text-align: center;
+}
+.Image {
+  background-size: contain;
+  height: 35vh;
+  margin-top: auto; 
+  margin-left: auto;
+}
+.Item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F5F2D0;
+}
+@media only screen and (max-width: 767px) {
+  .Image{
+    height: 15vh;
+  }
+}

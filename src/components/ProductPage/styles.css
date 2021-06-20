@@ -1,0 +1,73 @@
+.product {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+.img{
+  left: 5vw;
+  margin-left: 5vw;
+  height: 60vh;
+  width: 30vw;
+}
+.textShit{
+  margin-left: 30vw;
+  display: flex;
+  flex-direction: column;
+}
+.price{
+  padding-left: 23vw;
+  padding-bottom: 3vh;
+}
+.progress{
+  margin-top: 40vh;
+}
+.textShit .MuiButtonBase-root{
+  border-radius: 20px;
+  padding: 10px;
+  width: 15vw;
+  margin-left: 7.5vw;
+  margin-top: 1vh;
+  background-color: #006400;
+}
+.textShit .MuiButtonBase-root:hover{
+  background-color: #004953;
+}
+
+@media only screen and (max-width: 767px) {
+  .product{
+    flex-direction: column;
+    margin-top: 10vh;
+  }
+  .textShit{
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .price{
+    padding-left: 65vw;
+    padding-bottom: 1vh;
+  }
+  .img{
+    margin-top: 3vh;
+    left: 0vw;
+    margin-left: 0vw;
+    height: 65vh;
+    width: 100vw;
+  }
+  .button .MuiButtonBase-root {
+  border-radius: 20px;
+  padding: 10px;
+  width: 70vw;
+  margin-left: 15vw;
+  margin-top: 3vh;
+  background-color: #006400;
+  }
+  .button .MuiButtonBase-root:hover{
+    background-color: #004953;
+  }
+  .description {
+    margin-left: 5vh;
+    margin-top: 3vh;
+  }
+}
